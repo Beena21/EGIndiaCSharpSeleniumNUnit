@@ -1,0 +1,12 @@
+{
+  "uuid": "07070c2c-a0e1-4431-92f1-8da94bad8bab",
+  "name": "NUnitSelenium.Selenium.ParabankProject.testcase1",
+  "children": [
+    "53d869c4-70f9-4076-b25c-35c9475d67c0"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1727090860594,
+  "stop": 1727090892347
+}

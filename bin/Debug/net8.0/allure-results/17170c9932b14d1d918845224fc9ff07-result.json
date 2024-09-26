@@ -1,0 +1,52 @@
+{
+  "uuid": "1093c6f1-2d8a-4223-adef-d8f8586f52c3",
+  "historyId": "00f14f64e625f5d6426840b024ae381c",
+  "testCaseId": "7dde7c49a675600e49b6c6795ae60b18",
+  "fullName": "NUnitSelenium:NUnitSelenium.Selenium.ParabankProject.testcase2_new()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "AUTO8CLYJQMRN9L"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "NUnitSelenium.Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "testcase2_new"
+    },
+    {
+      "name": "testClass",
+      "value": "ParabankProject"
+    }
+  ],
+  "links": [],
+  "name": "testcase2_new",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverException : The HTTP request to the remote WebDriver server for URL http://localhost:65166/session/a3593a3f-9882-460b-ad4d-4fb82b08b669/url timed out after 60 seconds.\r\n  ----> System.Threading.Tasks.TaskCanceledException : The request was canceled due to the configured HttpClient.Timeout of 60 seconds elapsing.\r\n  ----> System.TimeoutException : The operation was canceled.\r\n  ----> System.Threading.Tasks.TaskCanceledException : The operation was canceled.\r\n  ----> System.IO.IOException : Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..\r\n  ----> System.Net.Sockets.SocketException : The I/O operation has been aborted because of either a thread exit or an application request.",
+    "trace": "   at OpenQA.Selenium.Remote.HttpCommandExecutor.ExecuteAsync(Command commandToExecute)\r\n   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.ExecuteAsync(Command commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Navigator.GoToUrlAsync(String url)\r\n   at OpenQA.Selenium.Navigator.<>c__DisplayClass6_0.<<GoToUrl>b__0>d.MoveNext()\r\n--- End of stack trace from previous location ---\r\n   at OpenQA.Selenium.Navigator.GoToUrl(String url)\r\n   at NUnitSelenium.Selenium.ParabankProject.startbrowser() in C:\\Users\\belro\\source\\repos\\NUnitSelenium\\Selenium\\ParabankProject.cs:line 22\r\n   at InvokeStub_ParabankProject.startbrowser(Object, Object, IntPtr*)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)\r\n--TaskCanceledException\r\n   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)\r\n   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.ExecuteAsync(Command commandToExecute)\r\n--TimeoutException\r\n\r\n--TaskCanceledException\r\n   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)\r\n   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)\r\n--IOException\r\n   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)\r\n   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)\r\n   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\r\n--SocketException\r\n"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1727092220480,
+  "stop": 1727092293198
+}

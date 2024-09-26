@@ -1,0 +1,45 @@
+{
+  "uuid": "76596d5a-f6f8-493d-b869-888c303e9a62",
+  "historyId": "43126f8585a2797b5db66592bcef458a",
+  "testCaseId": "8684cb13126df027011c971e70b4c5aa",
+  "fullName": "NUnitSelenium:NUnitSelenium.NUNITTests.FactorialAndPrimeUnitTest.FactorialTest()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "AUTO8CLYJQMRN9L"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "NUnitSelenium.NUNITTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "FactorialTest"
+    },
+    {
+      "name": "testClass",
+      "value": "FactorialAndPrimeUnitTest"
+    }
+  ],
+  "links": [],
+  "name": "FactorialTest",
+  "status": "passed",
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1726486233608,
+  "stop": 1726486233615
+}

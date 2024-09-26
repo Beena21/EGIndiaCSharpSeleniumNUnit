@@ -1,0 +1,55 @@
+{
+  "uuid": "5acba645-538b-4197-834e-b8483de0f4b5",
+  "historyId": "00f14f64e625f5d6426840b024ae381c",
+  "testCaseId": "7dde7c49a675600e49b6c6795ae60b18",
+  "fullName": "NUnitSelenium:NUnitSelenium.Selenium.ParabankProject.testcase2_new()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "AUTO8CLYJQMRN9L"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "NUnitSelenium.Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "testcase2_new"
+    },
+    {
+      "name": "testClass",
+      "value": "ParabankProject"
+    },
+    {
+      "name": "tag",
+      "value": "Login"
+    }
+  ],
+  "links": [],
+  "name": "testcase2_new",
+  "status": "passed",
+  "stage": "finished",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "faa3af6e-a09f-41a1-aece-66a721fe7520-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1727168891909,
+  "stop": 1727168913287
+}

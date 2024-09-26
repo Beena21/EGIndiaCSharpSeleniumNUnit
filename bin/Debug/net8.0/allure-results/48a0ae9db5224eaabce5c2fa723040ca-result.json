@@ -1,0 +1,45 @@
+{
+  "uuid": "d7a52ae2-38b3-48b3-b658-6701be04b0f0",
+  "historyId": "b0523ac7de617ed14b4712e6f9a241bd",
+  "testCaseId": "b20dc13faa9c0234305628a6a0184b29",
+  "fullName": "NUnitSelenium:NUnitSelenium.NUNITTests.FactorialAndPrimeUnitTest.PrimeNumTest()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "AUTO8CLYJQMRN9L"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "NUnitSelenium.NUNITTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "PrimeNumTest"
+    },
+    {
+      "name": "testClass",
+      "value": "FactorialAndPrimeUnitTest"
+    }
+  ],
+  "links": [],
+  "name": "PrimeNumTest",
+  "status": "passed",
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1726486233647,
+  "stop": 1726486233648
+}
